@@ -109,5 +109,10 @@ curl -X POST -H "Content-Type: application/json" -d '{"project": "YourProjectNam
 
 Documentation
 
+License
+
+This project is licensed under the MIT License.
+
+
 You can use this content for your README.md file in your GitHub repository.
 
