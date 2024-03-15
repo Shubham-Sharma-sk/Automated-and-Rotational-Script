@@ -51,7 +51,8 @@ Edit the script (backup_script.sh) and set the following variables:
     rotational_count: Number of backups to retain in each category.
     curl_url: cURL endpoint for successful backup notifications(Webhook).
 
-Usage
+## Usage
+
 
 Give the permission to your backup.sh
 
@@ -65,7 +66,7 @@ bash
 
 ./backup_script.sh
 
-Rotational Backup Strategy
+##Rotational Backup Strategy
 
 A rotational backup strategy is a method of managing backup copies by retaining a set number of recent backups while systematically removing older ones. This strategy provides a balance between conserving storage space and ensuring that you have access to a sufficient history of backup data.
 
@@ -97,7 +98,8 @@ Example (with 'x' set to 7 in our Script):
     Delete older backups beyond the specified retention periods.
 
 This strategy ensures that we have a recent history of backups for quick recovery while gradually removing older backups to free up storage space. The 'x' value provides flexibility in customizing the number of backups retained for each period based on your specific needs. If needed, adjust the rotational backup strategy in the script based on your project requirements.
-Output and Notification
+
+##Output and Notification
 
 The script outputs relevant information, success/failure messages, and timestamps to the console. On successful backup, a cURL request is made to the specified endpoint (CURL_URL) with a POST request containing project name, date, and a test identifier.
 
@@ -107,12 +109,17 @@ bash
 
 curl -X POST -H "Content-Type: application/json" -d '{"project": "YourProjectName", "date": "BackupDate", "test": "BackupSuccessful"}' https://your-webhook-url
 
-Documentation
+##Documentation
+For more details on configuration options, Google Drive integration, and rotational backup strategy, refer to the script documentation. Contributing
 
-License
+
+
+##Contributing
+
+We welcome contributions from the community! If you'd like to contribute to the project, please follow the guidelines outlined in the Contributing Guidelines in Contribute.md file.
+
+##License
 
 This project is licensed under the MIT License.
-
-
 You can use this content for your README.md file in your GitHub repository.
 
