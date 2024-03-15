@@ -10,7 +10,7 @@ gdrive_daily="Test/daily"
 gdrive_weekly="Test/weekly"
 gdrive_monthly="Test/monthly"
 log_file="$backup/log_file.txt"
-#curl_url="https://webhook.site/e9968d6e-3304-48e8-8687-c3f69f031bc5"
+curl_url="https://webhook.site/c5bed560-92c2-4dc9-b007-09e294ba71e8"
 daily_rotation_count=7
 weekly_rotation_count=4
 monthly_rotation_count=3
@@ -147,5 +147,5 @@ github_clone
 daily_backup
 weekly_backup
 monthly_backup
-#curl_request
+curl_request
 log_message "Backup and Rotation Process Completed..."
