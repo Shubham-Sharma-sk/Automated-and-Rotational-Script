@@ -33,7 +33,7 @@ cd Automated-Backup-Script
 
 sudo apt-get install rclone
 
-## Configuration
+## configuration
 
 Edit the script (backup_script.sh) and set the following variables:
 
