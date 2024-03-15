@@ -12,7 +12,7 @@ This script automates the backup process for a GitHub project, implementing a ro
 - [Usage](#usage)
 - [Rotational Backup Strategy](#rotational-backup-strategy)
 - [Output and Notification](#output-and-notification)
-- [Documentation](#documentation)
+- [Documentation](#Documentation)
 - [Contributing](#contributing)
 - [License](#license)
 
